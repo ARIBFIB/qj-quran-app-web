@@ -1,4 +1,4 @@
-﻿// ---------------------------------------------------------------------------
+// ---------------------------------------------------------------------------
 // EDIT THIS FILE to plug in real APK links, version numbers, and dates.
 // This is the ONLY file you need to touch to update Downloads/Home version info.
 // ---------------------------------------------------------------------------

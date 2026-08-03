@@ -1,4 +1,4 @@
-﻿import type { Metadata } from "next";
+import type { Metadata } from "next";
 import Button from "@/components/Button";
 import { VERSIONS, LATEST_VERSION } from "@/data/versions";
 

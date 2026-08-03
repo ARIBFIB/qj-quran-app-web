@@ -1,4 +1,4 @@
-﻿import Link from "next/link";
+import Link from "next/link";
 import { SUPPORT_EMAIL } from "@/data/versions";
 
 export default function Footer() {

@@ -1,4 +1,4 @@
-﻿import type { Metadata } from "next";
+import type { Metadata } from "next";
 import Button from "@/components/Button";
 import { PLAY_STORE_URL, LIVE_WEB_URL } from "@/data/versions";
 

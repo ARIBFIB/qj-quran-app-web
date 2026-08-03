@@ -1,4 +1,4 @@
-﻿import Image from "next/image";
+import Image from "next/image";
 import Link from "next/link";
 import Button from "@/components/Button";
 import { LATEST_VERSION, LIVE_WEB_URL, PLAY_STORE_URL } from "@/data/versions";

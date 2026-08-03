@@ -1,4 +1,4 @@
-﻿import type { Metadata } from "next";
+import type { Metadata } from "next";
 import { SUPPORT_EMAIL } from "@/data/versions";
 
 export const metadata: Metadata = {
