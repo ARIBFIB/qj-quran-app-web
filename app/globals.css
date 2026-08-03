@@ -1,0 +1,45 @@
+﻿@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lora:wght@500;600;700&display=swap");
+@import "tailwindcss";
+
+:root {
+  --navy: #0A2947;
+  --navy-dark: #071D33;
+  --cream: #F3E4C9;
+  --card: #FBF6EA;
+  --sage: #D3D4C0;
+  --sage-strong: #C7C8B2;
+  --brown: #8B5E3C;
+  --brown-dark: #74492E;
+  --text-body: #33342A;
+  --text-muted: #6B6C5C;
+}
+
+@theme inline {
+  --color-navy: var(--navy);
+  --color-navy-dark: var(--navy-dark);
+  --color-cream: var(--cream);
+  --color-card: var(--card);
+  --color-sage: var(--sage);
+  --color-sage-strong: var(--sage-strong);
+  --color-brown: var(--brown);
+  --color-brown-dark: var(--brown-dark);
+  --color-text-body: var(--text-body);
+  --color-text-muted: var(--text-muted);
+  --font-heading: "Lora", Georgia, serif;
+  --font-body: "Inter", system-ui, sans-serif;
+}
+
+body {
+  background: var(--cream);
+  color: var(--text-body);
+  font-family: var(--font-body);
+}
+
+h1, h2, h3, .font-heading {
+  font-family: var(--font-heading);
+}
+
+.islamic-pattern {
+  background-image: radial-gradient(circle at 1px 1px, rgba(10,41,71,0.06) 1px, transparent 1px);
+  background-size: 22px 22px;
+}
